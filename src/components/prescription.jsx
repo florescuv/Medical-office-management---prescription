@@ -8,6 +8,9 @@ const Prescription = ()=>{
             <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "50px"}}>
                 <div style={{marginRight: "20px"}}>Nume</div><input id="nume"/>
             </div>
+            <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
+                <div style={{marginRight: "20px"}}>Varsta pacientului</div><input id="varsta"/>
+            </div>
         </div>
     </div>
     );
