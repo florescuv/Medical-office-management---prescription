@@ -18,8 +18,8 @@ const Prescription = ()=>{
                     <option value="feminin">Feminin</option>
                 </select>
             </div>
-            <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
-                <div style={{marginRight: "20px"}}>Data:</div><input type="date" id="data"/>
+            <div style={{display: "flex", flexDirection:"row", justifyContent: "space-between", alignItems: "center", marginTop: "20px"}}>
+                <div style={{marginRight: "153px"}}>Data:</div><input style={{width: "408px"}} type="date" id="data"/>
             </div>
             <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
                 <div>Simptome asociate pacientului:
