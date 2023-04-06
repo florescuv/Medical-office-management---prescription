@@ -11,9 +11,9 @@ const Prescription = ()=>{
             <div style={{display: "flex", flexDirection:"row",  justifyContent: "space-between", marginTop: "20px"}}>
                 <div style={{marginRight: "56px"}}>Varsta pacientului:</div><input style={{width: "400px"}} type="number" id="varsta"/>
             </div>
-            <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
-                <div style={{marginRight: "20px"}}>Sexul pacientului:</div>
-                <select id="Pacient">
+            <div style={{display: "flex", flexDirection:"row", justifyContent: "space-between", marginTop: "20px"}}>
+                <div style={{marginRight: "63px"}}>Sexul pacientului:</div>
+                <select style={{width: "410px"}} id="Pacient">
                     <option value="masculin">Masculin</option>
                     <option value="feminin">Feminin</option>
                 </select>
