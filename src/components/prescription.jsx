@@ -5,8 +5,8 @@ const Prescription = ()=>{
     <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px", marginBottom:"20px"}}>
         <div style={{display: "flex", flexDirection:"column", width:"100%", alignItems:"center"}}> 
             <div style={{ fontWeight: "1000", fontSize: "25px"}}>Prescriptie Medicala</div>
-            <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "50px"}}>
-                <div style={{marginRight: "20px"}}>Nume:</div><input id="nume"/>
+            <div style={{display: "flex", flexDirection:"row", justifyContent: "space-between", marginTop: "50px", width: "600px"}}>
+                <div style={{marginRight: "20px"}}>Nume:</div><input style={{width: "400px"}}id="nume"/>
             </div>
             <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
                 <div style={{marginRight: "20px"}}>Varsta pacientului:</div><input type="number" id="varsta"/>
