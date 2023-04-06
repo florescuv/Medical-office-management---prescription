@@ -21,10 +21,9 @@ const Prescription = ()=>{
             <div style={{display: "flex", flexDirection:"row", justifyContent: "space-between", alignItems: "center", marginTop: "20px"}}>
                 <div style={{marginRight: "153px"}}>Data:</div><input style={{width: "408px"}} type="date" id="data"/>
             </div>
-            <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
-                <div>Simptome asociate pacientului:
-                    <textarea id="simptome" rows={4} cols={50}/>
-                </div>
+            <div style={{display: "flex", flexDirection:"row", alignContent:"center", height: "100%", alignItems: "center", marginTop: "20px"}}>
+                <div style={{marginRight: "43px", width:"150px"}}>Simptome asociate pacientului:</div>
+                    <textarea style={{width: "405px"}} id="simptome" rows={4} cols={50}/>
             </div>
             <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
                 <div>Tratament si medicatie recomandata:
