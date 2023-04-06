@@ -26,9 +26,8 @@ const Prescription = ()=>{
                     <textarea style={{width: "405px"}} id="simptome" rows={4} cols={50}/>
             </div>
             <div style={{display: "flex", flexDirection:"row", alignItems: "center", marginTop: "20px"}}>
-                <div>Tratament si medicatie recomandata:
-                    <textarea id="tratament" rows={4} cols={50}/>
-                </div>
+                <div style={{marginRight: "43px", width:"150px"}}>Tratament si medicatie recomandata:</div>
+                <textarea style={{width: "405px"}} id="tratament" rows={4} cols={50}/>
             </div>
         </div>
     </div>
