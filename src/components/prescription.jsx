@@ -116,25 +116,6 @@ const PrescriptionForm = () => {
               <Option value="other">other</Option>
             </Select>
           </Form.Item>
-          <Form.Item
-            noStyle
-            shouldUpdate={(prevValues, currentValues) =>
-              prevValues.gender !== currentValues.gender
-            }
-          >
-            {({ getFieldValue }) =>
-              getFieldValue("gender") === "other" ? (
-                <Form.Item
-                  name="customizeGender"
-                  label="Customize Gender"
-                  rules={[{ required: true }]}
-                >
-                  <Input />
-                </Form.Item>
-              ) : null
-            }
-          </Form.Item>
-
           <Form.Item name="date" label="DatePicker" {...config}>
             <DatePicker />
           </Form.Item>
