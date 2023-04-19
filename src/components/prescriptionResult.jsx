@@ -34,6 +34,16 @@ const PrescriptionResult = (props) => {
             <input type="text" className="w-5" value={gender} disabled />
           </div>
         </div>
+        <div className="d-flex space">
+          <div>
+            <label>{"Medical Notes : "}</label>
+            <input type="text" className="w-17" value={notes} disabled />
+          </div>
+          <div>
+            <label>{"Date : "}</label>
+            <input type="text" className="w-14" value={date} disabled />
+          </div>
+        </div>
       </section>
       <hr />
     </div>
