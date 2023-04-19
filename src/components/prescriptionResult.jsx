@@ -20,6 +20,20 @@ const PrescriptionResult = (props) => {
           <label>{"S.No. : "}</label>
           <input type="text" value={Date.now()} disabled />
         </div>
+        <div className="d-flex space">
+          <div className="gm">
+            <label>{"Nume Pacient: "}</label>
+            <input type="text" className="w-17" value={username} disabled />
+          </div>
+          <div>
+            <label>{"Vârstă : "}</label>
+            <input type="text" className="w-5" value={age} disabled />
+          </div>
+          <div>
+            <label>{"Sex : "}</label>
+            <input type="text" className="w-5" value={gender} disabled />
+          </div>
+        </div>
       </section>
       <hr />
     </div>
