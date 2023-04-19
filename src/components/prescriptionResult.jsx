@@ -14,6 +14,14 @@ const PrescriptionResult = (props) => {
           Strada Nicolae Bălcescu, 56
         </p>
       </section>
+      <hr />
+      <section id="prescription">
+        <div className="d-flex end">
+          <label>{"S.No. : "}</label>
+          <input type="text" value={Date.now()} disabled />
+        </div>
+      </section>
+      <hr />
     </div>
   );
 };
