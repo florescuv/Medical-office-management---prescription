@@ -54,6 +54,11 @@ const PrescriptionResult = (props) => {
         </div>
       </section>
       <hr />
+      <section id="footer">
+        <footer>
+          mail@hospital.com
+        </footer>
+      </section>
     </div>
   );
 };
