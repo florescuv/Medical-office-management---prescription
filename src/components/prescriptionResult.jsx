@@ -5,7 +5,7 @@ const PrescriptionResult = (props) => {
   return (
     <div className="page">
       <section id="hospital">
-        <h1>{"Spitalul TST"}</h1>
+        <h1>{"Doctor's Office"}</h1>
         <div className="dr-dt">
           <h3 className="fs-1_5">{"Dr. Vlad Andrei"}</h3>
           <span className="fs-0_3">{"O.R.L (otorinolaringologie)"}</span>
@@ -22,21 +22,21 @@ const PrescriptionResult = (props) => {
         </div>
         <div className="d-flex space">
           <div className="gm">
-            <label>{"Nume Pacient: "}</label>
+            <label>{"Patient's Name: "}</label>
             <input type="text" className="w-17" value={username} disabled />
           </div>
           <div>
-            <label>{"Vârstă : "}</label>
+            <label>{"Age : "}</label>
             <input type="text" className="w-5" value={age} disabled />
           </div>
           <div>
-            <label>{"Sex : "}</label>
+            <label>{"Gender : "}</label>
             <input type="text" className="w-5" value={gender} disabled />
           </div>
         </div>
         <div className="d-flex space">
           <div>
-            <label>{"Medical Notes : "}</label>
+            <label>{"Associated Symptoms : "}</label>
             <input type="text" className="w-17" value={notes} disabled />
           </div>
           <div>
@@ -45,7 +45,7 @@ const PrescriptionResult = (props) => {
           </div>
         </div>
         <div className="d-flex col">
-          <label>{"Medicine Details : "}</label>
+          <label>{"Medical prescription : "}</label>
           <textarea disabled defaultValue={medicines}></textarea>
         </div>
         <div className="d-flex end">

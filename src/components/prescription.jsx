@@ -70,7 +70,7 @@ const PrescriptionForm = () => {
           fontSize: "2rem",
         }}
       >
-        Doctor Prescription Generator
+        Doctor Network Management Office - Prescription
       </Header>
       <Content>
         <Form
@@ -121,7 +121,7 @@ const PrescriptionForm = () => {
           </Form.Item>
 
           <Form.Item
-            label="Medical Notes"
+            label="Associated Symptoms"
             name="notes"
             rules={[{ required: true }]}
           >
@@ -129,7 +129,7 @@ const PrescriptionForm = () => {
           </Form.Item>
 
           <Form.Item
-            label="Details Of Medicines"
+            label="Medical prescription"
             name="medicines"
             rules={[{ required: true }]}
           >
