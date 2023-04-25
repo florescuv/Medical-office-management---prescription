@@ -56,7 +56,10 @@ const PrescriptionResult = (props) => {
       <hr />
       <section id="footer">
         <footer>
-          mail@hospital.com
+          <p> If you have any problems, call us
+          <br></br>
+          <a href="tel:0722929242#">0722929242</a>
+          </p>
         </footer>
       </section>
     </div>
