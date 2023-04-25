@@ -56,10 +56,14 @@ const PrescriptionResult = (props) => {
       <hr />
       <section id="footer">
         <footer>
-          <p> If you have any problems, call us
+          <h5> If you have any problems, call us
           <br></br>
           <a href="tel:0722929242#">0722929242</a>
-          </p>
+          </h5>
+          <h5> or contact us from email
+          <br></br>
+          <a href="mailto:#">contact@TSTmedical.com</a>
+          </h5>
         </footer>
       </section>
     </div>
