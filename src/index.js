@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div style={{backgroundColor:"#B2DBBF"}}>
+    <div style={{backgroundColor:"white"}}>
       <App />
     </div>
   </React.StrictMode>
