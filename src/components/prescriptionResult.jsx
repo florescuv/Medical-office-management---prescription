@@ -5,7 +5,17 @@ const PrescriptionResult = (props) => {
   return (
     <div className="page">
       <section id="hospital">
-        <h1>{"Doctor's Office"}</h1>
+        <h1>{"Doctor's Office"}</h1> 
+        <button style={{
+            display: 'block',
+            margin: '0 auto',
+            backgroundColor: '#fff',
+            color: 'black',
+            padding: '5px 10px',
+            borderRadius: '5px',
+            fontSize: '12px',
+            fontWeight: 'bold'
+        }} onClick={_ => window.print()} > Download PDF </button>
         <div className="dr-dt">
           <h3 className="fs-1_5">{"Dr. Vlad Andrei"}</h3>
           <span className="fs-0_3">{"O.R.L (otorinolaringologie)"}</span>
@@ -55,6 +65,7 @@ const PrescriptionResult = (props) => {
       </section>
       <hr />
       <section id="footer">
+     
         <footer>
           <h5> If you have any problems, call us
           <br></br>
@@ -67,6 +78,7 @@ const PrescriptionResult = (props) => {
         </footer>
       </section>
     </div>
+    
   );
 };
 
