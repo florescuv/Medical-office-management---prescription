@@ -113,7 +113,6 @@ const PrescriptionForm = () => {
             >
               <Option value="male">male</Option>
               <Option value="female">female</Option>
-              <Option value="other">other</Option>
             </Select>
           </Form.Item>
           <Form.Item name="date" label="DatePicker" {...config}>
