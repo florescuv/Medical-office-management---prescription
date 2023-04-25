@@ -4,7 +4,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
-  border: 3px solid #65BCC3;
+  border: 3px solid #c36565;
   width: 700px;
   align-content: center;
 }
@@ -15,7 +15,7 @@ p {
 }
 
 h1 {
-  color: #65BCC3 !important;
+  color: #c36565 !important;
   font-size: 2rem;
 }
 
@@ -36,7 +36,7 @@ hr {
   display: block;
   height: 3px;
   border: 0;
-  border-top: 3px solid #65BCC3;
+  border-top: 3px solid #c36565;
   margin: 1em 0;
   padding: 0;
   height: 0;
