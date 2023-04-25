@@ -6,23 +6,13 @@ const PrescriptionResult = (props) => {
     <div className="page">
       <section id="hospital">
         <h1>{"Doctor's Office"}</h1> 
-        <button style={{
-            display: 'block',
-            margin: '0 auto',
-            backgroundColor: '#fff',
-            color: 'black',
-            padding: '5px 10px',
-            borderRadius: '5px',
-            fontSize: '12px',
-            fontWeight: 'bold'
-        }} onClick={_ => window.print()} > Download PDF </button>
         <div className="dr-dt">
           <h3 className="fs-1_5">{"Dr. Vlad Andrei"}</h3>
           <span className="fs-0_3">{"O.R.L (otorinolaringologie)"}</span>
         </div>
-        <p>
+        <h4>
           Strada Nicolae Bălcescu, 56
-        </p>
+        </h4>
       </section>
       <hr />
       <section id="prescription">
@@ -76,6 +66,16 @@ const PrescriptionResult = (props) => {
           <a href="mailto:#">contact@TSTmedical.com</a>
           </h5>
         </footer>
+        <button style={{
+            display: 'block',
+            margin: '0 auto',
+            backgroundColor: '#c36565',
+            color: 'black',
+            padding: '5px 10px',
+            borderRadius: '5px',
+            fontSize: '12px',
+            fontWeight: 'bold'
+        }} onClick={_ => window.print()} > Download PDF </button>
       </section>
     </div>
     
