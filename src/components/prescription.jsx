@@ -86,7 +86,7 @@ const PrescriptionForm = () => {
             label="Patient Name"
             rules={[
               {
-                type: "uername",
+                type: "username",
                 message: "The input is not valid username!",
               },
               {
