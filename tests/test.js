@@ -19,7 +19,7 @@ test('Fill form and validate Result', async t => {
 		.typeText('#register_medicines', 'Medicamente anti depresive')
 		.wait(3000)
 		.click('#register > div:nth-child(7) > div > div > div > div > button')
-		.wait(10000)
-}).timeouts({
-    pageLoadTimeout:    3000,
+		.wait(1000)
+		.maximizeWindow()
+		.wait(5000)
 });
