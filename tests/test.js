@@ -14,6 +14,8 @@ test('Fill form and validate Result', async t => {
 		.wait(3000)
 		.typeText('#register_date', '2023-04-05')
 		.wait(3000)
+		.typeText('#register_notes', 'test nebun')
+		.wait(3000)
 }).timeouts({
     pageLoadTimeout:    3000,
 });
